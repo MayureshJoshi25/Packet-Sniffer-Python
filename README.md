@@ -11,6 +11,13 @@ A packet sniffer written in Python for sniffing and analyzing network packets, p
 - Ensure you have Python 3.5 or higher installed on your system.
 - Run the script using the command ```python3 <script_name.py>```.
 - Optionally, specify a protocol filter (e.g., ICMP, TCP, UDP) as a command-line argument to capture packets of specific types.
+```
+python3 script.py [protocol]
+```
+protocol: (Optional) The protocol filter to apply. You can specify one of the following protocols:
+ICMP: Internet Control Message Protocol
+TCP: Transmission Control Protocol
+UDP: User Datagram Protocol
 - View the captured packet information in the console output.
 
 ## Requirements
